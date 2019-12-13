@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    Title="Login"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinSampleForms.LoginPage">
+    <StackLayout>
+        <Label Text="username here"></Label>
+        <Label Text="password here"></Label>
+    </StackLayout>
+</ContentPage>

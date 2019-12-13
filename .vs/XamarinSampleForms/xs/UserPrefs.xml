@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{A32A8D6B-817E-4501-B6E9-78B9C0DD8F31}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinSampleForms.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinSampleForms" expanded="True">
+            <Node name="XamarinSampleForms" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="BookDetailViewPage.xaml" expanded="True" />
+              <Node name="BookViewPage.xaml" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True">
+                <Node name="LoginPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="XamarinSampleForms.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.XamarinSampleForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4527B0CF-6E36-406A-B38D-DA76A9EB0F85" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

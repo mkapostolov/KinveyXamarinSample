@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="{Binding Author}" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinSampleForms.BookDetailViewPage">
+        <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="Handle_SaveItem"/>
+    </ContentPage.ToolbarItems>
+    <TableView>
+        <TableRoot>
+            <TableSection Title="Details">
+                <EntryCell Label="Title" Text="{Binding Title}"/>
+                <EntryCell Label="Author" Text="{Binding Author}"/>
+                <EntryCell Label="Language" Text="{Binding Language}"/>
+                <EntryCell Label="Country" Text="{Binding Country}"/>
+                <EntryCell Label="Year" Text="{Binding Year}" Keyboard="Numeric"/>
+                <EntryCell x:Name="myPages" Label="Pages" Text="{Binding Pages}" Keyboard="Numeric"/>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>

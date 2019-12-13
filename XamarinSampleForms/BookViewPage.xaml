@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    NavigationPage.HasBackButton="False"
+    Title="Books"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" x:Class="XamarinSampleForms.BookViewPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="Handle_AddItem"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <SearchBar Placeholder="Search..." TextChanged="Handle_TextChanged"/>
+
+        <ListView x:Name="listView"
+            ItemSelected="Handle_ItemSelected"
+                  IsPullToRefreshEnabled="True" Refreshing="Handle_Refreshing">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Title}" Detail="{Binding Author}">
+                        <TextCell.ContextActions>
+                            <MenuItem Text="Delete" Clicked="Handle_DeleteItem" IsDestructive="True" CommandParameter="{Binding .}"></MenuItem>
+                        </TextCell.ContextActions>
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+</ContentPage>
