@@ -6,12 +6,13 @@
         <State name="__root__">
           <Node name="XamarinSampleForms" expanded="True">
             <Node name="XamarinSampleForms" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Book.cs" selected="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="BookDetailViewPage.xaml" expanded="True" />
               <Node name="BookViewPage.xaml" expanded="True" />
-              <Node name="LoginPage.xaml" expanded="True">
-                <Node name="LoginPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="LoginPage.xaml" expanded="True" />
             </Node>
             <Node name="XamarinSampleForms.Android" expanded="True" />
           </Node>
